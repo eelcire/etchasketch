@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Gugi', cursive;
+}
+header {
+    text-align: center;
+    padding: 2em;
+    background-color: white;
+}
+body {
+    background-color: black;
+}
+.options {
+    text-align: center;
+    margin: 1em;
+    position: relative;
+    bottom: 6.5em
+}
+button {
+    margin: 1em;
+    width: 8em;
+    height: 3.5em;
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-family: 'Gugi', cursive;
+    font-size: 14px;
+    border: none;
+}
+#reset {
+    left: 12em;
+}
+#new {
+    left: 2em;
+}
+#default {
+    right: 12em;
+}
+#random {
+    right: 2em;
+}
+#container {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    width: 600px;
+    margin: 50px auto;
+    height: 600px;
+    background-color: black;
+}
+.box {
+    border: 0.5px solid rgb(56, 56, 56);
+}
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgb(214, 209, 209);
+    color: black;
+}
